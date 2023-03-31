@@ -1,0 +1,175 @@
+body{
+ background-color:#392A48; 
+ color: white;  
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+p{
+    width: 20rem;
+    padding:2rem;
+    padding-top: 2px;
+    padding-left: 3rem;
+}
+
+h1{
+    width: 25rem;
+    font-size: 2.6rem;
+    padding:2rem;
+    padding-left: 3rem;
+    padding-bottom: 0.2rem;
+}
+
+#ktextz{
+    display: block;
+    
+}
+b{
+    font-size: 1.4rem;
+}
+
+.header{
+   /* 
+    justify-content: right ; */
+   display: block;
+   float: right;
+
+    
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+     
+   max-width: 30rem;
+   height: 60vh;
+    
+    }
+
+span{
+    color: rgb(233, 158, 233);
+}
+
+.textbox{
+   max-width: 60rem;
+    height:60vh;
+    margin: auto;
+    background-color: #32174D;
+    margin-top: 10%;
+   
+
+
+}
+
+.ktexts{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 4.4rem;
+    padding-left: 3rem;
+}
+
+.image-overlay{
+    background-color: rgba(127, 16, 238, 0.4);
+    display: block;
+    float: right;
+    width: 30rem;
+    height: 60vh;
+}
+
+.figuretext{
+    color: grey ;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        padding: 0;
+        margin: 10px;
+    }
+
+
+    .textbox{
+        
+        padding: 5px;
+        margin: auto;
+        background-color: #32174D;
+        height: fit-content;
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0;
+        overflow: hidden;
+    }
+
+    .attribution{
+        font-size: 14px;
+    }
+       
+    
+
+p{
+    width: 24rem;
+    padding:2rem;
+    padding-top: 2px;
+    padding-left: 3rem;
+    text-align: right;
+    color: rgb(199, 197, 197);
+}
+
+h1{
+    width: 25rem;
+    font-size: 2.1rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+b{
+    font-size: 2rem;
+}
+
+.header{
+    border-radius: 7px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+
+.image-overlay{
+    background-color: rgba(127, 16, 238, 0.4);
+    display: block;
+    
+    width: 100%;
+    
+
+}
+
+
+.ktexts{
+    display: flex;
+    flex-direction:column;
+   margin: 40px;
+    text-align: center;
+}
+.settings{
+  padding: auto;
+  margin: auto;
+  overflow: hidden;
+  
+}
+
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    .textbox{
+        width:fit-content;
+        height: fit-content;
+    
+        margin: auto;
+        background-color: #32174D;
+        margin-top: 10%;
+    }
+       
+}
